@@ -10,15 +10,16 @@ var coord = MapCoordinates()
     
     Map() {
     
-					Marker("Dorney Park",systemImage: "dot.circle.and.hand.point.up.left.fill", coordinate: coord.dorney!)
+					Marker("Disney World, Florida",systemImage: "dot.circle.and.hand.point.up.left.fill", coordinate: coord.disneyWorld!)
+						.tint(.green)
+						
+					Marker("Miami, Florida",systemImage: "dot.circle.and.hand.point.up.left.fill", coordinate: coord.MiamiFlorida!)
+						.tint(.green)
+						
+					Marker("Sea World, Florida",systemImage: "dot.circle.and.hand.point.up.left.fill", coordinate: coord.seaworld!)
 						.tint(.green)
 					
-					Marker("Lehigh Valley Hospital (Cedar Crest & I-78)",systemImage: "cross.circle",coordinate: coord.hospital!)
-					.tint(.red)
-					
-					Marker("Weis Pharmacy", systemImage: "pill.fill", coordinate: coord.pharmacy!)
-					.tint(.blue)
-    
+		  
 				}
 				}
 				}

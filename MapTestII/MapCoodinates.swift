@@ -4,14 +4,14 @@ import MapKit
 
 @Observable class MapCoordinates {
 
-// Dorney Park:
-var dorney: CLLocationCoordinate2D? = (CLLocationCoordinate2D(latitude: 40.579411, longitude: -75.531413))
+// Disney World:
+var disneyWorld: CLLocationCoordinate2D? = (CLLocationCoordinate2D(latitude: 28.385233, longitude: -81.563873))
 
-// LVHN:
-var hospital: CLLocationCoordinate2D? = (CLLocationCoordinate2D(latitude: 40.567265855334476, longitude: -75.52387650774273))
+// Miami Florida:
+var MiamiFlorida: CLLocationCoordinate2D? = (CLLocationCoordinate2D(latitude: 25.761681, longitude: -80.191788))
 
-// Weis Pharmacy:
-var pharmacy: CLLocationCoordinate2D? = (CLLocationCoordinate2D(latitude: 40.5837921864059, longitude: -75.51954205811424))
+// Sea World:
+var seaworld: CLLocationCoordinate2D? = (CLLocationCoordinate2D(latitude: 28.407450, longitude: -81.454470))
 
 
 }
