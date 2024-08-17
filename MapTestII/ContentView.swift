@@ -12,16 +12,16 @@ var coord = MapCoordinates()
 					
     Map() {
     
-					Marker("Disney World, Florida",systemImage: "star.fill", coordinate: coord.disneyWorld!)
+					Marker("Disney World",systemImage: "star.fill", coordinate: coord.disneyWorld!)
 						.tint(.green)
 						
-					Marker("Ft. Myers, Florida",systemImage: "star.fill",  coordinate: coord.FtMyersFlorida!)
+					Marker("Jacksonville",systemImage: "star.fill",  coordinate: coord.jacksonville!)
 						.tint(.red)
 						
-					Marker("Sea World, Florida",systemImage: "star.fill", coordinate: coord.seaworld!)
+					Marker("Sea World",systemImage: "star.fill", coordinate: coord.seaworld!)
 						.tint(.blue)
 					
-		  }.navigationTitle("Florida Attractions Map")
+		  }.navigationTitle("Florida Map")
 						.navigationBarTitleDisplayMode(.inline)
 				}
 				}

@@ -7,8 +7,8 @@ import MapKit
 // Disney World:
 var disneyWorld: CLLocationCoordinate2D? = (CLLocationCoordinate2D(latitude: 28.385233, longitude: -81.563873))
 
-// Ft. Myers, Florida:
-var FtMyersFlorida: CLLocationCoordinate2D? = (CLLocationCoordinate2D(latitude: 26.64227, longitude: -81.86910))
+// Jacksonville, Florida:
+var jacksonville: CLLocationCoordinate2D? = (CLLocationCoordinate2D(latitude: 30.33016, longitude: -81.65969))
 
 // Sea World:
 var seaworld: CLLocationCoordinate2D? = (CLLocationCoordinate2D(latitude: 28.407450, longitude: -81.454470))
