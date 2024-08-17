@@ -1,24 +1,29 @@
-//
-//  ContentView.swift
-//  MapTestII
-//
-//  Created by Dan Uff on 8/17/24.
-//
-
 import SwiftUI
+import MapKit
+import CoreLocation
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
 
+var coord = MapCoordinates()
+
+    var body: some View {
+    
+    Map() {
+    
+					Marker("Dorney Park",systemImage: "dot.circle.and.hand.point.up.left.fill", coordinate: coord.dorney!)
+						.tint(.green)
+					
+					Marker("Lehigh Valley Hospital (Cedar Crest & I-78)",systemImage: "cross.circle",coordinate: coord.hospital!)
+					.tint(.red)
+					
+					Marker("Weis Pharmacy", systemImage: "pill.fill", coordinate: coord.pharmacy!)
+					.tint(.blue)
+    
+				}
+				}
+				}
+				
+								
 #Preview {
     ContentView()
 }
